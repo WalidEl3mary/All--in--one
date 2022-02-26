@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>New Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="accordion">Slider One</button>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum, corporis, illum impedit
+                blanditiis aperiam obcaecati laboriosam debitis dolor eligendi modi cum. Ullam, blanditiis
+                necessitatibus? Consectetur unde aspernatur possimus vitae dolorum? Assumenda odio vitae saepe eveniet
+                quasi repudiandae labore dolore! Fugit est quos nulla eaque. Optio provident deserunt quaerat eos
+                architecto, dicta laudantium eveniet necessitatibus voluptas, id corporis facere, asperiores illum ex
+                totam ab laboriosam voluptatibus nemo magnam accusantium sapiente?
+            </p>
+        </div>
+        <button class="accordion">Slider Two</button>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum, corporis, illum impedit
+                blanditiis aperiam obcaecati laboriosam debitis dolor eligendi modi cum. Ullam, blanditiis
+                necessitatibus? Consectetur unde aspernatur possimus vitae dolorum? Assumenda odio vitae saepe eveniet
+                quasi repudiandae labore dolore! Fugit est quos nulla eaque. Optio provident deserunt quaerat eos
+                architecto, dicta laudantium eveniet necessitatibus voluptas, id corporis facere, asperiores illum ex
+                totam ab laboriosam voluptatibus nemo magnam accusantium sapiente?
+            </p>
+        </div>
+        <button class="accordion">Slider Three</button>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum, corporis, illum impedit
+                blanditiis aperiam obcaecati laboriosam debitis dolor eligendi modi cum. Ullam, blanditiis
+                necessitatibus? Consectetur unde aspernatur possimus vitae dolorum? Assumenda odio vitae saepe eveniet
+                quasi repudiandae labore dolore! Fugit est quos nulla eaque. Optio provident deserunt quaerat eos
+                architecto, dicta laudantium eveniet necessitatibus voluptas, id corporis facere, asperiores illum ex
+                totam ab laboriosam voluptatibus nemo magnam accusantium sapiente?
+            </p>
+        </div>
+        <button class="accordion">Slider Four</button>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum, corporis, illum impedit
+                blanditiis aperiam obcaecati laboriosam debitis dolor eligendi modi cum. Ullam, blanditiis
+                necessitatibus? Consectetur unde aspernatur possimus vitae dolorum? Assumenda odio vitae saepe eveniet
+                quasi repudiandae labore dolore! Fugit est quos nulla eaque. Optio provident deserunt quaerat eos
+                architecto, dicta laudantium eveniet necessitatibus voluptas, id corporis facere, asperiores illum ex
+                totam ab laboriosam voluptatibus nemo magnam accusantium sapiente?
+            </p>
+        </div>
+        <button class="accordion">Slider Five</button>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum, corporis, illum impedit
+                blanditiis aperiam obcaecati laboriosam debitis dolor eligendi modi cum. Ullam, blanditiis
+                necessitatibus? Consectetur unde aspernatur possimus vitae dolorum? Assumenda odio vitae saepe eveniet
+                quasi repudiandae labore dolore! Fugit est quos nulla eaque. Optio provident deserunt quaerat eos
+                architecto, dicta laudantium eveniet necessitatibus voluptas, id corporis facere, asperiores illum ex
+                totam ab laboriosam voluptatibus nemo magnam accusantium sapiente?
+            </p>
+        </div>
+    </div>
+
+<br>
+<br>
+<div class="container">
+    <div class="gallary">
+        <div class="thumbnail">
+            <img src="./images/01.jpg" alt="">
+            <img src="./images/02.jpg" alt="">
+            <img src="./images/03.jpg" alt="">
+            <img src="./images/04.jpg" alt="">
+            <img src="./images/05.jpg" alt="">
+            <img src="./images/06.jpg" alt="">
+        </div>
+        <div class="preview container text-center">
+            <img src="./images/01.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="container col-3">
+    <form name="calc">
+        <table class="table">
+            <tr>
+                <input type="text" readonly name="result" class="form-control mt-5">
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="calc.result.value+='1'"></td>
+                <td><input type="button" value="2" onclick="calc.result.value+='2'"></td>
+                <td><input type="button" value="3" onclick="calc.result.value+='3'"></td>
+                <td><input type="button" value="+" onclick="calc.result.value+='+'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="calc.result.value+='4'"></td>
+                <td><input type="button" value="5" onclick="calc.result.value+='5'"></td>
+                <td><input type="button" value="6" onclick="calc.result.value+='6'"></td>
+                <td><input type="button" value="-" onclick="calc.result.value-='-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="calc.result.value+='7'"></td>
+                <td><input type="button" value="8" onclick="calc.result.value+='8'"></td>
+                <td><input type="button" value="9" onclick="calc.result.value+='9'"></td>
+                <td><input type="button" value="*" onclick="calc.result.value+='*'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="calc.result.value =''"></td>
+                <td><input type="button" value="=" onclick="calc.result.value = eval(calc.result.value)"></td>
+                <td><input type="button" value="/" onclick="calc.result.value+='/'"></td>
+                <td><input type="button" value="0" onclick="calc.result.value*='0'"></td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
